@@ -3,15 +3,14 @@
 
 
 
-import random
-import time
+
 import asyncio
 
-import aiohttp
+
 import logging
-import re
+
 from aiogram.types import Dice, CallbackQuery
-from bs4 import BeautifulSoup
+
 
 from aiogram.utils.keyboard import InlineKeyboardBuilder
 from aiogram import Dispatcher, Router, types, F
